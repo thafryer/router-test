@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic -t chpt_72a6633556b96fb"
+    "chromatic": "chromatic -t chpt_72a6633556b96fb --only-changed"
   },
   "dependencies": {
     "date-fns": "4.1.0",
